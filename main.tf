@@ -14,6 +14,7 @@ terraform {
  #secret_key = var.secret_key
  #region = var.region
 #}
+
 resource "aws_instance" "snow_discovery" {
   ami = "ami-0b7d0db7325d1918a"
   instance_type = "t2.micro"
