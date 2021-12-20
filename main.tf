@@ -16,7 +16,7 @@ terraform {
 #}
 
 resource "aws_instance" "snow_discovery" {
-  ami = "ami-0b7d0db7325d1918a"
+  ami = "ami-f2d3638a"
   instance_type = "t2.micro"
   subnet_id = "subnet-226cf86b"
   tags = {
