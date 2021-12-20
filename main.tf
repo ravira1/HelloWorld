@@ -1,11 +1,11 @@
-terraform {
- required_providers {
- aws = {
-  source ="registry.terraform.io/hashicorp/aws"
-  version = ">=1.0"
- }
- }
-}
+#terraform {
+ #required_providers {
+ #aws = {
+  #source ="registry.terraform.io/hashicorp/aws"
+  #version = ">=1.0"
+ #}
+ #}
+#}
 provider "aws" {
  assume_role {
   role_arn = "arn:aws:iam::140882719977:role/polyadmin"
